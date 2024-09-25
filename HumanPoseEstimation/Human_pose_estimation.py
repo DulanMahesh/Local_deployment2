@@ -2,14 +2,14 @@ import cv2  #
 import mediapipe as mp  # Import MediaPipe for pose estimation
 
 
-img = cv2.imread("Tiger_Woods.png")
+img = cv2.imread("cellphone_girl.jpg")
 
 # Get the width and height of the image for further processing.
 img_width = img.shape[1]
 img_height = img.shape[0]
 
 # Display the original image in a window.
-cv2.imshow('Tiger Woods', img)
+cv2.imshow('Human pose', img)
 cv2.waitKey(0)
 cv2.destroyAllWindows()
 
