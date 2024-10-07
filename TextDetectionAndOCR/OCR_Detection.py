@@ -115,7 +115,7 @@ if __name__ == "__main__":
     polyThresh = 0.5
 
     # Define mean pixel values for normalization
-    mean = (122.67891434, 116.66876762, 104.00698793)
+    mean = (122.67891434, 116.66876762, 104.00698793) # mean values are from training set
 
     # Configure the text detector with the given parameters
     textDetector.setBinaryThreshold(binThresh).setPolygonThreshold(polyThresh)
