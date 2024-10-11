@@ -25,5 +25,5 @@ img =qr.make_image(fill_color ="black", back_color ="white")
 img.save("QRCode.png")
 #displayng the image
 plt.imshow(img,'gray')
-plt.show(block=False)
+plt.show(block=True)
 
