@@ -19,7 +19,7 @@ def mix(my_list):
 def try_your_luck():
     a_try='' # to store players selection
     while a_try not in['1','2','3','4']:
-        a_try=input("Choose a number : ")
+        a_try=input("Choose a number(1 to 4) : ")
 
     return int(a_try)
 
