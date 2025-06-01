@@ -14,7 +14,7 @@ def return_distincts(num1,num2,num3):
         return max(total)
     elif num1+num2+num3 <10:
         return min(total)
-    elif 10<=(num1+num2+num3)<=15:
+    elif (num1 + num2 + num3) >= 10 and (num1 + num2 + num3) <= 15:
         total_sorted =sorted(total) # to get the middle number in a list with 3 numbers, first we sort the list
         return total_sorted[1] # then we call the index of 1
 
