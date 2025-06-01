@@ -23,6 +23,22 @@ def test(number1,number2,*args,**kwargs):
 
 test(10,20,30,40,50,60,x=70,y=80,z=90)
 
+#exercise03
+def test3(number1,number2,*args,**kwargs):
+    print(f'The first number is {number1}')
+    print(f'The second number is {number2}')
+
+    for arg in args:
+        print(f'arg ={arg}')
+
+    for key,value in kwargs.items():
+        print(f'{key} = {value}')
+
+args =[30,40,50,60]
+kwargs={'x':70,'y':80,'z':100}
+
+test(10,20,*args,**kwargs)
+
 
 
 
