@@ -45,9 +45,10 @@ def asking_to_guess():
 
         if tries==0 and '-' in revealed_letters:
             print(f'Sorry!! You lost the game.because you ran out of lives.The secret word is: {secret_word} ')
+            break
 
         if '-'not in (revealed_letters):
-            print(f'congratulation you won.The secret word is : {''.join(revealed_letters)}')
+            print(f"congratulation you won.The secret word is : {''.join(revealed_letters)}")
 
 
 
